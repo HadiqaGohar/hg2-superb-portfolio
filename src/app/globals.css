@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* In your main CSS file (e.g., index.css or App.css) */
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css"; 
+
+
+
+.fixed-glow {
+  box-shadow: 0 0 6px #19A7CE, 0 0 10px #19A7CE;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide {
+  animation: slideIn 1s ease-out forwards;
+}
+
+.animate-delay-1 {
+  animation-delay: 0.2s;
+}
+
+.animate-delay-2 {
+  animation-delay: 0.4s;
+}
+
+.animate-delay-3 {
+  animation-delay: 0.6s;
+}
+
+.animate-delay-4 {
+  animation-delay: 0.8s;
+}
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s forwards; /* Fade-in duration */
+}
+
+.animate-delay-5 {
+  animation-delay: 1s; /* Set to 2 seconds */
+}
+
+.animate-fade-in-delay {
+  animation: slideIn 1s forwards 1s; /* Slide-in effect with a delay of 2 seconds */
+}
+
+
+
+
+
+/* Loader Image */
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 4s linear infinite; /* Adjust the speed as needed */
+}
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bgcolor: #080808;
+    --second-bg-color: #131313;
+    --text-color: white;
+    --main-color: #00ffee;
+}
+
+body {
+    background-color: var(--bgcolor);
+    color: var(--text-color);
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--bgcolor);
+}

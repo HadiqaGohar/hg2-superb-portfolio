@@ -1,0 +1,85 @@
+.navbar-container {
+    background-color: #0B2447;
+    color: white;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    
+}
+
+.navbar-title {
+    color: white;
+}
+
+.highlighted-text {
+    color: #19A7CE;
+}
+
+/* Desktop Navigation */
+.desktop-nav .nav-list {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-link {
+    color: white;
+    
+}
+
+.nav-link:hover {
+    color: #19A7CE;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+/* Hire Me Button */
+.hire-me-button {
+    background-color: #19A7CE;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.hire-me-button:hover {
+    background-color: transparent;
+    color: #19A7CE;
+    border: 2px solid #19A7CE;
+}
+
+/* Mobile Menu */
+.menu-icon {
+    color: white;
+}
+
+.mobile-menu {
+    padding: 1rem;
+    background-color: #0B2447;
+}
+
+.mobile-nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.mobile-nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.mobile-nav-link:hover {
+    color: #19A7CE;
+}
+
+.mobile-hire-button {
+    margin-top: 1rem;
+}
+
+

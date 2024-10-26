@@ -1,0 +1,131 @@
+.contact {
+    padding-top: 5rem; /* 20 * 0.25rem */
+    padding-bottom: 5rem; /* 20 * 0.25rem */
+    background-color: #1C315E;
+  }
+  
+  .contact-title {
+    animation: fadeInTop 0.5s ease-in-out;
+    font-size: 3rem; /* text-5xl */
+    margin-bottom: 2.5rem; /* mb-10 */
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .highlight {
+    color: #00bcd4; /* text-cyan-400 */
+  }
+  
+  .contact-form {
+    max-width: 28rem; /* max-w-md */
+    margin: 0 auto; /* mx-auto */
+    padding: 1.25rem; /* p-5 */
+    animation: fadeInTop 0.5s ease-in-out;
+    background-color: #0B2447;
+    border: 2px solid #00ffee;
+    border-radius: 0.375rem; /* rounded-lg */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* shadow-lg */
+  }
+  
+  .input-box {
+    margin-bottom: 1rem; /* mb-4 */
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 0.75rem; /* p-3 */
+    border: 1px solid #D1D5DB; /* border-gray-300 */
+    background-color: #0B2447;
+    border-radius: 0.375rem; /* rounded-md */
+    outline: none;
+  }
+  
+  .input-field:focus {
+    outline: 2px solid #00ffee; /* Using outline instead of ring */
+    box-shadow: 0 0 0 2px rgba(0, 255, 238, 0.5); /* Simulating the ring effect */
+  }
+  
+  .textarea-field {
+    width: 100%;
+    padding: 0.75rem; /* p-3 */
+    border: 1px solid #D1D5DB; /* border-gray-300 */
+    background-color: #0B2447;
+    border-radius: 0.375rem; /* rounded-md */
+    outline: none;
+    margin-bottom: 1rem; /* mb-4 */
+  }
+  
+  .textarea-field:focus {
+    outline: 2px solid #00ffee; /* Using outline instead of ring */
+    box-shadow: 0 0 0 2px rgba(0, 255, 238, 0.5); /* Simulating the ring effect */
+  }
+  
+  .submit-btn {
+    width: 100%;
+    background-color: #19A7CE; /* bg-[#19A7CE] */
+    font-weight: bold;
+    font-style: italic;
+    padding: 0.5rem 1rem; /* px-4 py-2 */
+    border-radius: 0.375rem; /* rounded */
+    cursor: pointer;
+    color: black;
+    transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: transparent;
+    border: 2px solid #19A7CE; /* hover:border-[#19A7CE] */
+    color: #19A7CE; /* hover:text-[#19A7CE] */
+  }
+  
+  .find-me-title {
+    animation: fadeInTop 0.5s ease-in-out;
+    font-size: 3rem; /* text-5xl */
+    margin: 2rem 0; /* my-8 mb-10 */
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: center; /* justify-center */
+    gap: 1rem; /* space-x-4 */
+  }
+  
+  .btn {
+    padding: 0.5rem 1rem; /* py-2 px-4 */
+    background-color: #0B2447;
+    border: 2px solid #00ffee; /* border-2 border-[#00ffee] */
+    border-radius: 0.375rem; /* rounded-md */
+    color: #00ffee; /* text-[#00ffee] */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #00ffee; /* hover:bg-[#00ffee] */
+    color: #0B2447; /* hover:text-[#0B2447] */
+  }
+  
+  /* Animation Keyframes */
+  @keyframes fadeInTop {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInBottom {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

@@ -1,0 +1,195 @@
+/* src/app/about/About.css */
+
+.custom-container {
+    background-color: #1C315E; /* Background color */
+    width: 100%; /* Full width */
+    height: 900px; /* Fixed height */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    padding: 1rem; /* Padding of 16px (1rem) */
+}
+/* styles.css */
+
+/* Loader Styles */
+.image-section {
+    position: relative; /* To position child elements absolutely */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 1.5rem; /* Equivalent to mb-6 (24px) */
+    margin: 2.5rem 0; /* Equivalent to my-10 (40px) */
+}
+
+/* First Loader */
+.loader-large {
+    position: absolute; /* Position it absolutely within the image-section */
+    width: 240px; /* Width for medium screens */
+    height: 240px; /* Height for medium screens */
+    border-width: 4px; /* Border width */
+    border-top-color: #19A7CE; /* Top border color */
+    border-bottom-color: transparent; /* Bottom border color */
+    border-left-color: transparent; /* Left border color */
+    border-right-color: transparent; /* Right border color */
+    border-radius: 50%; /* Make it circular */
+    animation: spin-slow 1.5s linear infinite; /* Animation for spinning */
+}
+
+
+/* Second Loader */
+.loader-small {
+    position: absolute; /* Position it absolutely within the image-section */
+    width: 200px; /* Width for medium screens */
+    height: 200px; /* Height for medium screens */
+    border-width: 4px; /* Border width */
+    border-top-color: #19A7CE; /* Top border color */
+    border-bottom-color: transparent; /* Bottom border color */
+    border-left-color: transparent; /* Left border color */
+    border-right-color: transparent; /* Right border color */
+    border-radius: 50%; /* Make it circular */
+    animation: spin-slow 1.5s linear infinite; /* Animation for spinning */
+}
+
+/* Image Styles */
+.image {
+    position: relative; /* Positioning for layering */
+    width: 200px; /* Width for medium screens */
+    height: 200px; /* Height for medium screens */
+    border-radius: 50%; /* Make it circular */
+    outline: double 2px #19A7CE; /* Double outline */
+    animation: fade-in-top 0.5s ease-in
+}
+
+
+
+
+
+
+
+/* styles.css */
+
+/* Text Section Styles */
+.text-center {
+    text-align: center; /* Center text alignment */
+}
+
+.space-y-4 > *:not(:last-child) {
+    margin-bottom: 1rem; /* Space between elements (16px) */
+}
+
+h1, h2, p {
+    color: white; /* Default text color */
+}
+
+h1 {
+    font-size: 2rem; /* Equivalent to text-2xl (32px) */
+    margin-top: 1.25rem; /* Equivalent to mt-5 (20px) */
+    font-weight: bold; /* Bold font */
+    animation: fade-in-top 0.5s ease-in; /* Animation for fade-in */
+}
+
+h2 {
+    font-size: 1.25rem; /* Equivalent to text-xl (20px) */
+    font-weight: bold; /* Bold font */
+    animation: fade-in-top 0.5s ease-in; /* Animation for fade-in */
+}
+
+p {
+    font-style: italic; /* Italic font */
+    font-size: 1rem; /* Equivalent to md:text-xl (16px) */
+    color: white; /* Text color */
+    margin: 0 1rem; /* Horizontal margin for spacing */
+    margin-bottom: 1rem; /* Margin bottom */
+    animation: fade-in-bottom 0.5s ease-in-out;
+}
+
+
+/* Keyframes for fade-in animation */
+@keyframes fade-in-top {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Delay for paragraph animation */
+.animate-fade-in-bottom {
+    animation: fade-in-bottom 0.5s ease-in forwards;
+}
+
+@keyframes fade-in-bottom {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive styles */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.25rem; /* Equivalent to md:text-4xl (36px) */
+    }
+
+    h2 {
+        font-size: 1.875rem; /* Equivalent to md:text-3xl (30px) */
+    }
+
+    p {
+        font-size: 1.25rem; /* Equivalent to md:text-xl (20px) */
+        margin: 0 8rem; /* Margin for larger screens */
+    }
+}
+@media (min-width: 1280px) {
+    .loader-large {
+        width: 340px; /* Width for large screens */
+        height: 340px; /* Height for large screens */
+    }
+    .loader-small {
+        width: 300px; /* Width for large screens */
+        height: 300px; /* Height for large screens */
+    }
+    .image {
+        width: 300px; /* Width for large screens */
+        height: 300px; /* Height for large screens */
+    }
+}
+/* Keyframes for spinning animation */
+@keyframes spin-slow {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

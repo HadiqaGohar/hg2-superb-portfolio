@@ -1,0 +1,110 @@
+/* styles.css */
+
+/* Section styles */
+.education {
+    padding-top: 5rem; /* Equivalent to py-20 */
+    padding-bottom: 5rem; /* Equivalent to py-20 */
+    background-color: #1C315E; /* Equivalent to bg-[#1C315E] */
+    color: white; /* Text color */
+}
+
+/* Heading styles */
+.education h1 {
+    font-size: 3rem; /* Equivalent to text-5xl */
+    margin-bottom: 2.5rem; /* Equivalent to mb-10 */
+    text-align: center; /* Center text */
+    font-weight: bold; /* Font weight */
+    animation: fade-in-top 0.5s ease-in; /* Animation for fade-in */
+}
+
+/* Timeline container styles */
+.timeline-items {
+    position: relative; /* Position for the fixed-glow */
+    max-width: 64rem; /* Equivalent to max-w-4xl */
+    margin-left: auto; /* Center container */
+    margin-right: auto; /* Center container */
+}
+
+/* Fixed glow line styles */
+.fixed-glow {
+    position: absolute; /* Position for fixed glow */
+    left: 50%; /* Center it horizontally */
+    transform: translateX(-50%); /* Centering adjustment */
+    width: 0.25rem; /* Equivalent to w-1 */
+    height: 100%; /* Full height */
+    background-color: #00ffee; /* Equivalent to bg-[#00ffee] */
+    z-index: 0; /* Stack below timeline items */
+}
+
+/* Timeline item styles */
+.timeline-item {
+    position: relative; /* Positioning for child elements */
+    margin-bottom: 2.5rem; /* Equivalent to mb-10 */
+}
+
+/* Timeline dot styles */
+.timeline-dot {
+    position: absolute; /* Absolute position */
+    background-color: #00ffee; /* Equivalent to bg-[#00ffee] */
+    border-radius: 50%; /* Rounded shape */
+    height: 1.25rem; /* Equivalent to h-5 */
+    width: 1.25rem; /* Equivalent to w-5 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Equivalent to shadow-lg */
+    top: 1rem; /* Distance from top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Centering adjustment */
+    z-index: 10; /* Stack above other elements */
+}
+
+/* Timeline date styles */
+.timeline-date {
+    font-weight: bold; /* Bold font */
+    color: #00ffee; /* Equivalent to text-[#00ffee] */
+    animation: fade-in-top 0.5s ease-in; /* Animation for fade-in */
+    font-size: 1.25rem; /* Equivalent to text-xl */
+    margin-bottom: 0.5rem; /* Equivalent to mb-2 */
+}
+
+/* Timeline content styles */
+.timeline-content {
+    position: relative; /* Positioning for child elements */
+    display: inline-block; /* Allow margin auto to center */
+    margin: 0 1rem; /* Horizontal margin for spacing */
+    background-color: #0B2447; /* Equivalent to bg-[#0B2447] */
+    border: 2px solid #00ffee; /* Border color */
+    border-radius: 0.5rem; /* Rounded corners */
+    padding: 1.25rem; /* Padding */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transition for hover effects */
+}
+
+.timeline-content:hover {
+    transform: scale(1.05); /* Equivalent to hover:scale-105 */
+    box-shadow: 0 10px 20px rgba(0, 255, 255, 0.5); /* Equivalent to hover:shadow-2xl hover:shadow-[#00ffee] */
+}
+
+/* Title styles */
+.timeline-content h3 {
+    font-size: 1.125rem; /* Equivalent to text-lg */
+    font-weight: 600; /* Equivalent to font-semibold */
+    animation: fade-in-top 0.5s ease-in; /* Animation for fade-in */
+}
+
+/* Description styles */
+.timeline-content p {
+    font-style: italic; /* Italic text */
+    color: #D1D5DB; /* Equivalent to text-gray-300 */
+    animation: fade-in-top 0.5s ease-in; /* Animation for fade-in */
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fade-in-top {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
