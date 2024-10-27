@@ -32,11 +32,11 @@ const Skills = () => {
     );
 };
 
-// Define the prop types for the SkillBar component
+
 interface SkillBarProps {
     icon: React.ReactNode;
     label: string;
-    progress: string; // Define progress as a string (e.g., "90%")
+    progress: string; 
 }
 
 const SkillBar: React.FC<SkillBarProps> = ({ icon, label, progress }) => {

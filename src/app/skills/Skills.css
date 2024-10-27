@@ -1,41 +1,41 @@
-/* Main container styles */
+
 .skills-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 900px; /* Full height */
-    background-color: #0B2447; /* Background color */
-    color: white; /* Text color */
+    height: 900px; 
+    background-color: #0B2447;
+    color: white; 
 }
 
 /* Section styles */
 .skills-section {
-    max-width: 1200px; /* Equivalent to max-w-4xl */
-    margin: 0 auto; /* Center section */
-    padding: 1rem; /* Padding */
-    margin-bottom: 2.5rem; /* Bottom margin */
-    margin-left: 1.25rem; /* Side margin */
-    margin-right: 1.25rem; /* Side margin */
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 1rem; 
+    margin-bottom: 2.5rem; 
+    margin-left: 1.25rem; 
+    margin-right: 1.25rem;
 }
 
 /* Heading styles */
 .skills-heading {
-    font-size: 3rem; /* Equivalent to text-5xl */
-    margin-bottom: 2.5rem; /* Margin below heading */
-    text-align: center; /* Center alignment */
-    font-weight: bold; /* Bold font */
+    font-size: 3rem;
+    margin-bottom: 2.5rem; 
+    text-align: center; 
+    font-weight: bold; 
 }
 
 /* Span styles for colored text */
 .skills-highlight {
-    color: #06b6d4; /* Equivalent to text-cyan-400 */
+    color: #06b6d4; 
 }
 /* Flex container for skill bars */
 .skill-bars-container {
     display: flex;
-    flex-direction: column; /* Column on small screens */
-    justify-content: space-between; /* Space between columns */
+    flex-direction: column; 
+    justify-content: space-between; 
 }
 
 /* Left and right column styles */
@@ -50,32 +50,32 @@
 /* Medium screens and up */
 @media (min-width: 768px) {
     .skill-bars-container {
-        flex-direction: row; /* Row on medium screens and up */
+        flex-direction: row; 
     }
     
     .skill-column {
-        width: 50%; /* Each column takes half the width */
-        margin-bottom: 0; /* No margin below on larger screens */
+        width: 50%; 
+        margin-bottom: 0; 
     }
 }
 
 /* Space between columns */
 .column-space {
-    width: 1.25rem; /* Equivalent to md:w-5 */
+    width: 1.25rem; 
 }
 /* Skill Bar Container */
 .skill-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 2px solid transparent; /* Border fixed glow */
-    padding: 0.5rem; /* Equivalent to p-2 */
-    border-radius: 0.375rem; /* Equivalent to rounded-md */
-    width: 100%; /* Full width */
-    max-width: 400px; /* Max width for larger screens */
-    margin: 0 auto; /* Center horizontally */
-    position: relative; /* For inner elements */
-    animation: slide 0.3s ease-in-out; /* Optional animation */
+    border: 2px solid transparent; 
+    padding: 0.5rem; 
+    border-radius: 0.375rem; 
+    width: 100%; 
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative; 
+    animation: slide 0.3s ease-in-out;
 }
 
 /* Animation for skill bar */
@@ -98,31 +98,31 @@
 
 /* Icon styles */
 .skill-icon {
-    font-size: 1.875rem; /* Equivalent to text-3xl */
-    margin-right: 1rem; /* Equivalent to mr-4 */
+    font-size: 1.875rem; 
+    margin-right: 1rem; 
 }
 
 /* Progress Bar Container */
 .progress-container {
     position: relative;
     width: 100%;
-    margin-left: 1rem; /* Equivalent to ml-4 */
+    margin-left: 1rem; 
 }
 
 /* Progress Bar Background */
 .progress-background {
-    background-color: #4a5568; /* Equivalent to bg-gray-700 */
-    height: 0.5rem; /* Height equivalent to h-2 */
-    border-radius: 0.375rem; /* Rounded corners */
-    border: 1px solid #06b6d4; /* Equivalent to border border-cyan-400 */
+    background-color: #4a5568; 
+    height: 0.5rem; 
+    border-radius: 0.375rem; 
+    border: 1px solid #06b6d4; 
 }
 
 /* Progress Bar Fill */
 .progress-fill {
-    background-color: #06b6d4; /* Equivalent to bg-cyan-400 */
-    height: 100%; /* Full height of parent */
-    border-radius: 0.375rem; /* Rounded corners */
-    animation: fill 0.3s ease-in-out; /* Optional animation */
+    background-color: #06b6d4; 
+    height: 100%; 
+    border-radius: 0.375rem; 
+    animation: fill 0.3s ease-in-out; 
 }
 
 /* Animation for progress fill */
@@ -131,6 +131,6 @@
         width: 0%;
     }
     to {
-        width: 100%; /* Adjust this dynamically with inline style */
+        width: 100%; 
     }
 }
