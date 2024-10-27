@@ -1,40 +1,38 @@
-/* Services.css */
 
-/* Main Section */
 .services-section {
-    background-color: #1C315E; /* Background color */
-    height: 1600px; /* Fixed height */
-    padding: 2.5rem 0; /* Vertical padding */
+    background-color: #1C315E; 
+    height: 1600px; 
+    padding: 2.5rem 0;
 }
 
 @media (min-width: 768px) {
     .services-section {
-        height: 900px; /* Adjust height for medium screens */
+        height: 900px; 
     }
 }
 
 /* Title Styling */
 .services-title {
-    font-size: 3rem; /* Equivalent to text-5xl */
-    color: white; /* Text color */
-    margin-top: 2.5rem; /* Top margin */
-    margin-bottom: 3.5rem; /* Bottom margin */
-    text-align: center; /* Center align */
-    font-weight: bold; /* Bold font */
+    font-size: 3rem; 
+    color: white;
+    margin-top: 2.5rem; 
+    margin-bottom: 3.5rem; 
+    text-align: center; 
+    font-weight: bold; 
 }
 
 /* Highlighted Text */
 .services-highlight {
-    color: #19A7CE; /* Highlight color */
+    color: #19A7CE; 
 }
 
 /* Grid Layout */
 .services-grid {
-    display: grid; /* Use grid for layout */
+    display: grid; 
     grid-template-columns: repeat(1, 1fr); /* 1 column on small screens */
-    gap: 1.5rem; /* Space between items */
-    padding: 0 1rem; /* Horizontal padding */
-    margin: 0 auto; /* Center the grid */
+    gap: 1.5rem; 
+    padding: 0 1rem; 
+    margin: 0 auto; 
 }
 
 @media (min-width: 768px) {
@@ -46,37 +44,37 @@
 @media (min-width: 1024px) {
     .services-grid {
         grid-template-columns: repeat(3, 1fr); /* 3 columns on large screens */
-        max-width: 1280px; /* Maximum width */
+        max-width: 1280px; 
     }
 }
 
 /* Service Card */
 .service-card {
-    background-color: #0B2447; /* Card background */
+    background-color: #0B2447; 
     border-radius: 0.375rem; /* Rounded corners */
-    padding: 1.5rem; /* Padding inside the card */
-    color: white; /* Text color */
+    padding: 1.5rem; 
+    color: white; 
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
 }
 
 /* Icon Styling */
 .service-icon {
-    color: #19A7CE; /* Icon color */
-    font-size: 2.5rem; /* Icon size */
-    margin-bottom: 1rem; /* Space below icon */
+    color: #19A7CE;
+    font-size: 2.5rem; 
+    margin-bottom: 1rem;
 }
 
 /* Title Styling */
 .service-title {
-    font-size: 1.25rem; /* Title font size */
-    font-weight: bold; /* Bold font for title */
-    margin-bottom: 0.5rem; /* Space below title */
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem; 
 }
 
 /* Description Styling */
 .service-description {
-    font-style: italic; /* Italicize description */
-    margin-bottom: 1rem; /* Space below description */
+    font-style: italic; 
+    margin-bottom: 1rem; 
 }
 
 /* Animations (Optional) */
