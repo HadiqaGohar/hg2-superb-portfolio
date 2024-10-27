@@ -105,13 +105,6 @@
   animation: spin-slow 4s linear infinite; /* Adjust the speed as needed */
 }
 
-
-
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 * {
     margin: 0;
     padding: 0;
