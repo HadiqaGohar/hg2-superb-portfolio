@@ -1,10 +1,9 @@
-/* Resume.css */
 
 .resume-container {
     background-color: #1C315E;
     height: 100%;
     min-height: 100vh;
-    padding-top: 1.5rem; /* pt-6 */
+    padding-top: 1.5rem; 
 }
 
 .resume-background {
@@ -14,60 +13,60 @@
 .resume-content {
     border: 2px solid #19A7CE;
     background-color: #0B2447;
-    color: #f5f5f5; /* gray-100 */
-    max-width: 768px; /* max-w-3xl */
-    margin: 0 auto; /* mx-auto */
-    padding: 1.5rem; /* p-6 */
-    border-radius: 0.5rem; /* rounded-lg */
+    color: #f5f5f5; 
+    max-width: 768px; 
+    margin: 0 auto; 
+    padding: 1.5rem;
+    border-radius: 0.5rem; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* shadow-lg */
 }
 
 .resume-name {
-    font-size: 1.875rem; /* text-3xl */
+    font-size: 1.875rem; 
     color: #19A7CE;
     font-weight: bold;
-    margin-bottom: 1rem; /* mb-4 */
-    margin-top: 1.5rem; /* mt-6 */
+    margin-bottom: 1rem; 
+    margin-top: 1.5rem; 
 }
 
 .resume-title {
-    font-size: 1.125rem; /* text-lg */
-    font-weight: 500; /* font-medium */
-    margin-bottom: 2rem; /* mb-8 */
+    font-size: 1.125rem; 
+    font-weight: 500; 
+    margin-bottom: 2rem; 
 }
 
 .resume-section {
-    margin-bottom: 2rem; /* mb-8 */
+    margin-bottom: 2rem; 
 }
 
 .resume-section-title {
-    font-size: 1.5rem; /* text-2xl */
-    font-weight: 600; /* font-semibold */
-    border-bottom: 2px solid #19A7CE; /* border-b-2 */
-    padding-bottom: 0.5rem; /* pb-2 */
+    font-size: 1.5rem;
+    font-weight: 600; 
+    border-bottom: 2px solid #19A7CE; 
+    padding-bottom: 0.5rem; 
 }
 
 .resume-text {
-    font-size: 1rem; /* text-base */
-    margin-top: 1rem; /* mt-4 */
+    font-size: 1rem; 
+    margin-top: 1rem;
 }
 
 .download-button {
     display: inline-block;
     background-color: #19A7CE;
     color: white;
-    padding: 0.5rem 1rem; /* py-2 px-4 */
-    border-radius: 0.25rem; /* rounded */
-    margin-top: 1.5rem; /* mt-6 */
+    padding: 0.5rem 1rem; 
+    border-radius: 0.25rem; 
+    margin-top: 1.5rem; 
     transition: background-color 0.3s, box-shadow 0.3s;
 }
 
 .download-button:hover {
-    background-color: #19A7CE; /* Same color */
-    box-shadow: 0 0 15px 5px rgba(173, 73, 225, 0.7); /* hover:shadow */
+    background-color: #19A7CE; 
+    box-shadow: 0 0 15px 5px rgba(173, 73, 225, 0.7); 
 }
 
 .download-button:focus {
     outline: none; /* focus:outline-none */
-    box-shadow: 0 0 0 4px rgba(25, 167, 206, 0.5); /* focus:ring */
+    box-shadow: 0 0 0 4px rgba(25, 167, 206, 0.5); 
 }

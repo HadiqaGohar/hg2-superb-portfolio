@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import Head from 'next/head';
 import { jsPDF } from 'jspdf';
 import html2canvas from 'html2canvas';
-import '../cv/Cv.css'; // Import the custom CSS file
+import '../cv/Cv.css'; 
 
 const Resume = () => {
     useEffect(() => {
@@ -15,7 +15,7 @@ const Resume = () => {
         }
 
         downloadButton.addEventListener('click', async (event) => {
-            event.preventDefault(); // Prevent default anchor behavior
+            event.preventDefault(); 
             const resume = document.getElementById('resume-content');
 
             if (!resume) {
@@ -34,8 +34,8 @@ const Resume = () => {
                 const pdf = new jsPDF('p', 'mm', 'a4');
                 const pdfWidth = pdf.internal.pageSize.getWidth();
                 
-                // Set a larger height for the PDF to include background
-                const pdfHeight = 300; // Adjust this value as needed
+                
+                const pdfHeight = 300; 
 
                 pdf.addImage(imgData, 'PNG', 0, 0, pdfWidth, pdfHeight);
                 pdf.save('Hadiqa_Gohar_Resume.pdf');
