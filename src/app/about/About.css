@@ -1,106 +1,97 @@
 /* src/app/about/About.css */
 
 .custom-container {
-    background-color: #1C315E; /* Background color */
-    width: 100%; /* Full width */
-    height: 900px; /* Fixed height */
-    display: flex; /* Use flexbox */
-    flex-direction: column; /* Stack children vertically */
+    background-color: #1C315E; 
+    width: 100%; 
+    height: 900px;
+    display: flex; 
+    flex-direction: column; 
     align-items: center; /* Center items horizontally */
     justify-content: center; /* Center items vertically */
-    padding: 1rem; /* Padding of 16px (1rem) */
+    padding: 1rem; 
 }
-/* styles.css */
 
 /* Loader Styles */
 .image-section {
     position: relative; /* To position child elements absolutely */
-    display: flex; /* Use flexbox for alignment */
-    justify-content: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
-    margin-bottom: 1.5rem; /* Equivalent to mb-6 (24px) */
-    margin: 2.5rem 0; /* Equivalent to my-10 (40px) */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 1.5rem; 
+    margin: 2.5rem 0;
 }
 
 /* First Loader */
 .loader-large {
-    position: absolute; /* Position it absolutely within the image-section */
-    width: 240px; /* Width for medium screens */
-    height: 240px; /* Height for medium screens */
-    border-width: 4px; /* Border width */
-    border-top-color: #19A7CE; /* Top border color */
-    border-bottom-color: transparent; /* Bottom border color */
-    border-left-color: transparent; /* Left border color */
-    border-right-color: transparent; /* Right border color */
-    border-radius: 50%; /* Make it circular */
+    position: absolute; 
+    width: 240px; 
+    height: 240px; 
+    border-width: 4px;
+    border-top-color: #19A7CE; 
+    border-bottom-color: transparent; 
+    border-left-color: transparent; 
+    border-right-color: transparent;
+    border-radius: 50%; 
     animation: spin-slow 1.5s linear infinite; /* Animation for spinning */
 }
 
 
 /* Second Loader */
 .loader-small {
-    position: absolute; /* Position it absolutely within the image-section */
-    width: 200px; /* Width for medium screens */
-    height: 200px; /* Height for medium screens */
-    border-width: 4px; /* Border width */
-    border-top-color: #19A7CE; /* Top border color */
-    border-bottom-color: transparent; /* Bottom border color */
-    border-left-color: transparent; /* Left border color */
-    border-right-color: transparent; /* Right border color */
-    border-radius: 50%; /* Make it circular */
+    position: absolute; 
+    width: 200px; 
+    height: 200px;
+    border-width: 4px; 
+    border-top-color: #19A7CE; 
+    border-bottom-color: transparent;
+    border-left-color: transparent; 
+    border-right-color: transparent; 
+    border-radius: 50%; 
     animation: spin-slow 1.5s linear infinite; /* Animation for spinning */
 }
 
 /* Image Styles */
 .image {
-    position: relative; /* Positioning for layering */
-    width: 200px; /* Width for medium screens */
-    height: 200px; /* Height for medium screens */
-    border-radius: 50%; /* Make it circular */
-    outline: double 2px #19A7CE; /* Double outline */
+    position: relative; 
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    outline: double 2px #19A7CE; 
     animation: fade-in-top 0.5s ease-in
 }
 
-
-
-
-
-
-
-/* styles.css */
-
 /* Text Section Styles */
 .text-center {
-    text-align: center; /* Center text alignment */
+    text-align: center;
 }
 
 .space-y-4 > *:not(:last-child) {
-    margin-bottom: 1rem; /* Space between elements (16px) */
+    margin-bottom: 1rem; 
 }
 
 h1, h2, p {
-    color: white; /* Default text color */
+    color: white; 
 }
 
 h1 {
-    font-size: 2rem; /* Equivalent to text-2xl (32px) */
-    margin-top: 1.25rem; /* Equivalent to mt-5 (20px) */
-    font-weight: bold; /* Bold font */
+    font-size: 2rem; 
+    margin-top: 1.25rem; 
+    font-weight: bold; 
     animation: fade-in-top 0.5s ease-in; /* Animation for fade-in */
 }
 
 h2 {
-    font-size: 1.25rem; /* Equivalent to text-xl (20px) */
-    font-weight: bold; /* Bold font */
+    font-size: 1.25rem; 
+    font-weight: bold; 
     animation: fade-in-top 0.5s ease-in; /* Animation for fade-in */
 }
 
 p {
-    font-style: italic; /* Italic font */
-    font-size: 1rem; /* Equivalent to md:text-xl (16px) */
-    color: white; /* Text color */
-    margin: 0 1rem; /* Horizontal margin for spacing */
-    margin-bottom: 1rem; /* Margin bottom */
+    font-style: italic; 
+    font-size: 1rem; 
+    color: white; 
+    margin: 0 1rem; 
+    margin-bottom: 1rem;
     animation: fade-in-bottom 0.5s ease-in-out;
 }
 
