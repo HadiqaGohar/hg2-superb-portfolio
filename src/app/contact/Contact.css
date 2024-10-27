@@ -1,72 +1,72 @@
 .contact {
-    padding-top: 5rem; /* 20 * 0.25rem */
-    padding-bottom: 5rem; /* 20 * 0.25rem */
+    padding-top: 5rem; 
+    padding-bottom: 5rem; 
     background-color: #1C315E;
   }
   
   .contact-title {
     animation: fadeInTop 0.5s ease-in-out;
-    font-size: 3rem; /* text-5xl */
-    margin-bottom: 2.5rem; /* mb-10 */
+    font-size: 3rem; 
+    margin-bottom: 2.5rem; 
     text-align: center;
     font-weight: bold;
   }
   
   .highlight {
-    color: #00bcd4; /* text-cyan-400 */
+    color: #00bcd4; 
   }
   
   .contact-form {
-    max-width: 28rem; /* max-w-md */
-    margin: 0 auto; /* mx-auto */
-    padding: 1.25rem; /* p-5 */
+    max-width: 28rem; 
+    margin: 0 auto; 
+    padding: 1.25rem;
     animation: fadeInTop 0.5s ease-in-out;
     background-color: #0B2447;
     border: 2px solid #00ffee;
-    border-radius: 0.375rem; /* rounded-lg */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* shadow-lg */
+    border-radius: 0.375rem; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
   }
   
   .input-box {
-    margin-bottom: 1rem; /* mb-4 */
+    margin-bottom: 1rem;
   }
   
   .input-field {
     width: 100%;
-    padding: 0.75rem; /* p-3 */
-    border: 1px solid #D1D5DB; /* border-gray-300 */
+    padding: 0.75rem; 
+    border: 1px solid #D1D5DB; 
     background-color: #0B2447;
-    border-radius: 0.375rem; /* rounded-md */
+    border-radius: 0.375rem; 
     outline: none;
   }
   
   .input-field:focus {
-    outline: 2px solid #00ffee; /* Using outline instead of ring */
+    outline: 2px solid #00ffee; 
     box-shadow: 0 0 0 2px rgba(0, 255, 238, 0.5); /* Simulating the ring effect */
   }
   
   .textarea-field {
     width: 100%;
-    padding: 0.75rem; /* p-3 */
-    border: 1px solid #D1D5DB; /* border-gray-300 */
+    padding: 0.75rem; 
+    border: 1px solid #D1D5DB; 
     background-color: #0B2447;
-    border-radius: 0.375rem; /* rounded-md */
+    border-radius: 0.375rem;
     outline: none;
-    margin-bottom: 1rem; /* mb-4 */
+    margin-bottom: 1rem; 
   }
   
   .textarea-field:focus {
-    outline: 2px solid #00ffee; /* Using outline instead of ring */
+    outline: 2px solid #00ffee; 
     box-shadow: 0 0 0 2px rgba(0, 255, 238, 0.5); /* Simulating the ring effect */
   }
   
   .submit-btn {
     width: 100%;
-    background-color: #19A7CE; /* bg-[#19A7CE] */
+    background-color: #19A7CE; 
     font-weight: bold;
     font-style: italic;
-    padding: 0.5rem 1rem; /* px-4 py-2 */
-    border-radius: 0.375rem; /* rounded */
+    padding: 0.5rem 1rem; 
+    border-radius: 0.375rem;
     cursor: pointer;
     color: black;
     transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
@@ -74,36 +74,36 @@
   
   .submit-btn:hover {
     background-color: transparent;
-    border: 2px solid #19A7CE; /* hover:border-[#19A7CE] */
-    color: #19A7CE; /* hover:text-[#19A7CE] */
+    border: 2px solid #19A7CE; 
+    color: #19A7CE; 
   }
   
   .find-me-title {
     animation: fadeInTop 0.5s ease-in-out;
-    font-size: 3rem; /* text-5xl */
-    margin: 2rem 0; /* my-8 mb-10 */
+    font-size: 3rem; 
+    margin: 2rem 0; 
     text-align: center;
     font-weight: bold;
   }
   
   .btn-container {
     display: flex;
-    justify-content: center; /* justify-center */
-    gap: 1rem; /* space-x-4 */
+    justify-content: center; 
+    gap: 1rem;
   }
   
   .btn {
-    padding: 0.5rem 1rem; /* py-2 px-4 */
+    padding: 0.5rem 1rem;
     background-color: #0B2447;
-    border: 2px solid #00ffee; /* border-2 border-[#00ffee] */
-    border-radius: 0.375rem; /* rounded-md */
-    color: #00ffee; /* text-[#00ffee] */
+    border: 2px solid #00ffee; 
+    border-radius: 0.375rem; 
+    color: #00ffee; 
     transition: background-color 0.3s ease, color 0.3s ease;
   }
   
   .btn:hover {
-    background-color: #00ffee; /* hover:bg-[#00ffee] */
-    color: #0B2447; /* hover:text-[#0B2447] */
+    background-color: #00ffee; 
+    color: #0B2447; 
   }
   
   /* Animation Keyframes */
