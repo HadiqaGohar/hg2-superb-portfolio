@@ -6,7 +6,7 @@ const EducationPage = () => {
     { year: '2021 - 2022', title: 'Matric', description: 'Completed school with a focus on science and mathematics.' },
     { year: '2023 - 2024', title: 'Intermediate', description: 'Completed College with a focus on sci (Medical) at G.I.S.A.C.C.' },
     { year: '2024 - 2025', title: 'Artificial Intelligency', description: 'Started my journey in AI at GIAIC, gaining valuable experience.' },
-    // { year: '2025 - 2026', title: 'Bacholor Science', description: 'Start My Learning Journey In Science and Technology at University' },
+    // { year: '2025 - 2028', title: 'Bacholor Science', description: 'Start My Learning Journey In Science and Technology at University' },
   ];
 
   return (
